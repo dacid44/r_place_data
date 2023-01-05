@@ -18,12 +18,12 @@ help to show different parts of the canvas better. The first shows pixels with m
 to yellow, with pixels never placed on transparent, and the second shows more contested pixels darker, with pixels with
 no placements in red. I'll also include an image of the final r/place canvas below for reference.
 
-![results/heatmap.png]
+![heatmap](results/heatmap.png)
 
-![results/heatmap-bw.png]
+![heatmap-bw](results/heatmap-bw.png)
 
-![final-place.png]
+![final-place](final-place.png)
 
 This was a super fun project to work on, and I learned a lot about the internals of both Rust and Python through working
 on it! There was also a lot of optimization that needed to be done to parse the data on my own PC in a reasonable amount
-of time. (Lesson learned: regexes are super useful, but also pretty slow.)
+of time. (Lesson learned: regexes are super useful, but also pretty slow in comparison to less dynamic parsing tools.)
